@@ -1,0 +1,124 @@
+
+
+
+body {
+	text-align: center;
+	background: #5d5048;
+}
+
+div#wrapper {
+		margin: 0 auto;
+		margin-top: 100px;
+		border: 1px solid #ffffff;
+		width: 960px;
+		height: 800px;
+		background: #423433 url('../images/odin2.png');
+		background-size: 14%;
+		background-position: 99% 99%;
+		background-repeat: no-repeat;
+}
+
+table {
+    margin: 0 auto;
+    border-spacing:0;
+    border-collapse: collapse;
+  }
+
+
+
+div#menu {
+		margin: 0 auto;
+		width: 600px;
+		display: block;
+		clear: both;
+}
+
+div#menu input {
+	margin-left: 10px;
+	font-size: 15px;
+	
+}
+
+#randomColour {
+	
+
+}
+
+div#canvas {
+
+	padding-top: 40px;
+
+}
+
+.box {
+
+	background-color: #ffffff;
+	width: 32px;
+	height: 32px;
+	
+}
+
+
+.hovered {
+    background-color:#000000;
+}
+
+/* copied straight from codecademy */
+
+.highlighted {
+    -webkit-box-shadow: 0 0 8px #FFD700;
+    -moz-box-shadow: 0 0 8px #FFD700;
+    box-shadow: 0 0 8px #FFD700;
+    cursor:pointer;
+}
+
+#top {
+	width: 100%;
+	position: relative;
+}
+
+.label { background: #fe921f; color: #ffffff; display: inline-block; 
+	font-family: 'Lato', sans-serif; font-size: 16px; font-weight: bold; 
+	line-height: 12px; letter-spacing: 1px; margin: 15px;
+	padding: 15px 20px 15px 20px;  
+	position: absolute; left: 0px;
+	
+
+	
+}
+
+.title {
+	color: #ff9600;
+	display: inline-block;
+	margin: 20px 0px 15px;
+	letter-spacing: 2px;
+	font-size: 34px; 
+	font-weight: 300; 
+
+}
+
+
+
+div#footer {
+		width: 960px;
+		clear: both;
+		margin: 0 auto;
+		font-family: trebuchet ms,arial,verdana;
+		font-size: 8pt;
+		font-weight: normal;
+		color: #ffffff;
+		letter-spacing: 1.1pt;
+		padding-top: 20px;
+		text-align: right;
+}
+
+div#footer A {
+		color: #ffffff;
+		font-weight: normal;
+		text-decoration: none;
+		text-transform: uppercase;
+}
+
+div#footer a:hover {
+		text-decoration: underline;
+}
