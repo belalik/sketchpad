@@ -1,2 +1,2 @@
 # sketchpad
-jquery / javascript exercise - odin project
+jquery / javascript exercise - odin project..
